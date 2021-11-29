@@ -590,6 +590,9 @@
     .Registration_Welcome{
         margin-top: 400px;
     }
+    .StickyLeftMenu{
+        display: none;
+    }
     
 }
 @media (max-width:562px) {
