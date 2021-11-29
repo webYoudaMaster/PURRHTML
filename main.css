@@ -1,0 +1,721 @@
+/*fonts settings*/
+@font-face {
+    font-family: Dosis;
+    src: url(./fonts/Dosis-Regular.otf);
+    src: url(./fonts/Dosis-Medium.otf);
+    src: url(./fonts/Dosis-Light.otf);
+    src: url(./fonts/Dosis-Bold.otf);
+}
+/*_______________*/
+/*Common settings*/
+* {
+    font-family: Dosis;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Sticky menu settings*/
+
+.StickyLeftMenu{
+    margin-top: 20%;
+    background-color: #2f1946;
+    position: fixed;
+    justify-content: left;
+    width: fit-content;
+    top:0px;
+    padding-bottom: 10px;
+    border-top-right-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 8px;
+}
+.StickyLeftMenu a{
+    padding-left: 10px;
+}
+.StickyLeftMenu a:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
+.StickyLeftMenu img{
+    margin-top:10px;
+    width: 20px;
+    height: 20px;
+}
+/*_________________*/
+/*First section settings*/
+.Offer{
+    background-image: url(./image/OfferBackgroungImage.jpg);
+    background-size:100%;
+    height: 1080px;
+    background-repeat: no-repeat;
+    
+}
+.Offer_BurgerMenu{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 100px;
+    padding-top: 30px;
+}
+.Offer_BurgerMenu img:hover{
+    transform: rotate(45deg);
+    transition: 0.5s;
+
+}
+.Offer_BurgerMenu_Text{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 15px;
+    padding-bottom: 4px;
+    color: #2f1946;
+}
+.Offer_Logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.Offer_Text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.Offer_Text h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 70px;
+    color: #2f1946;
+}
+.Offer_GetStartedButton_External{
+    width: 205px;
+    height: 75px;
+    border: 1px solid #2f1946;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    margin-bottom: 140px;
+}
+.Offer_GetStartedButton_Inner{
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+    background: #81398b;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.Offer_GetStartedButton_Inner p{
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+.Offer_GetStartedButton_Inner:hover{
+    background: #81398b;
+    transition: 0.5s;
+}
+.Offer_GetStartedButton_Inner img{
+    margin-left: 10px;
+}
+.Offer_GetStartedButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.Offer_Cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Offer_Cards_World{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.Offer_Cards_World_Icon{
+    background: #fe4a5d;
+    padding-left: 55px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.Offer_Cards_World_Text{
+    background: #e44254;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: white;
+    font-size: 30px;
+}
+/*---*/
+.Offer_Cards_Hearts{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+.Offer_Cards_Hearts_Icon{
+    background: #e22028;
+    padding-left: 55px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.Offer_Cards_Hearts_Text{
+    background: #cb1c24;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: white;
+    font-size: 30px;
+}
+/*    */
+.Offer_Cards_Site{
+    display: flex;
+    flex-direction: column;
+}
+.Offer_Cards_Site_Icon{
+    background: #ff6c00;
+    padding-left: 55px;
+    padding-right: 45px;
+    padding-bottom: 70px;
+    padding-top: 68px;
+}
+.Offer_Cards_Site_Text{
+    background: #e56100;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 55px;
+    color: white;
+    font-size: 30px;
+}
+/*__________________*/
+/* Registration settings */
+.Registration_Welcome{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+.Registration_Welcome_HelloIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px
+}
+.Registration_Welcome_HelloIcon p{
+    font-size: 40px;
+    color: #2f1946;
+    text-transform: uppercase;
+    margin-left: 10px
+}
+.Registration_Welcome_Slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Registration_Welcome_Slogan p{
+    color: #2f1946;
+    font-size: 25px;
+}
+.Registration_Welcome_Author{
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.Registration_Welcome_Author p{
+    font-size: 25px;
+    color: #fe4a5d;
+}
+/*RegForm settings*/
+.Registration_Form{
+    background-attachment: fixed;
+    background: url(./image/LoginBackgroundImage.jpg);
+    background-position: center;
+    background-size: 1920px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.Registration_Form_Square_SignUpByFaceebook a{
+    display: flex;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 65px;
+    padding-right: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.Registration_Form_Square_SignUpByFaceebook p{
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.Registration_Form_Square_SignUpByFaceebook img{
+    width: 6px;
+    height: 15px;
+}
+.Registration_Form_Square_SignUpByFaceebook{
+    background: #2f53a3;
+    border-radius: 7px;
+}
+.Registration_Form_Square{
+    border: 8px solid skyblue;
+    border-image: linear-gradient(270deg, #f9b416, #e22028 );
+    border-image-slice: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+.Registration_Form_Square_ItsFree p{
+    font-size: 35px;
+    color: #2f1946;
+    text-transform: uppercase;
+}
+.Registration_Form_Square_ItsFree{
+    margin-bottom: 15px;
+}
+.Registration_Form_Square_OrLine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Registration_Form_Square_OrLine_LeftLine{
+    background: #dedddd;
+    height: 2px;
+    width: 100px;
+    margin-right: 10px;
+}
+.Registration_Form_Square_OrLine_Or p{
+    color: #98999c;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.Registration_Form_Square_OrLine_RightLine{
+    background: #dedddd;
+    height: 2px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.Registration_Form_Square input{
+    border: 2px solid #bdbec4;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 280px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.Registration_Form_Square input::placeholder{
+    color: #67316d;
+    font-weight: light;
+    font-size: 13px;
+}
+.Registration_Form_Square_LetsGo a{
+    background: #81398b;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 115px;
+    border-radius: 5px;
+    padding-right: 115px;
+}
+.Registration_Form_Square_LetsGo{
+    margin-top: 15px;
+}
+/*Join Now Block*/
+.JoinNow{
+    margin-top: 150px;
+    margin-bottom: 30px;
+    background: url(./image/JoinNowBackgroundImage.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    display: flex;
+    background-position: top;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.JoinNow_ExternalCircle{
+    border: 1px solid white;
+    width: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10000px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.JoinNow_InnerCircle{
+    background: white;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.JoinNow_InnerCircle_JoinNow p{
+    color: #67316d;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.JoinNow_InnerCircle_ItsFree p{
+    color: #67316d;
+    font-size: 40px;
+}
+.JoinNow_InnerCircle_GetStartedButton a{
+    text-decoration: none;
+    border-radius: 3px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-top: 7px;
+    background: linear-gradient(90deg, #e22028, #f9b416);
+}
+.JoinNow_InnerCircle_ItsFree{
+    margin-bottom: 20px;
+}
+/*FOOTER SETTINGS*/
+
+.Footer_Seller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer_Seller_Text{
+    color: #01cfae;
+    margin-right: 20px;
+
+}
+.Footer_Seller_Input input{
+    border: 1px solid #cccccd;
+    outline: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    width: 250px;
+}
+.Footer_Seller_Input input::placeholder{
+    color: #bdbcbc;
+}
+.Footer_Seller_Button a{
+    background: #01cfae;
+    text-decoration: none;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-transform: uppercase;
+}
+.Footer_Nav{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background:#f8f8f8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.Footer_Nav a{
+    margin-right: 45px;
+    text-decoration: none;
+    color: #2f1946;
+}
+.Footer_Nav a:nth-child(7){
+    margin-right: 0px;
+}
+.Footer_Flags{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.Footer_Flags a{
+    margin-right: 15px;
+}
+.Footer_Flags a:nth-child(26){
+    margin-right: 0px;
+}
+.Footer_License{
+    font-size: 12px;
+    display: flex;
+    margin-top: 1px;
+    justify-content: center;
+    color:#808080;
+    margin-top: 10px;
+}
+
+.Footer_Line{
+    display: flex;
+    justify-content: center;
+    height: 1px;
+    background: #808080;
+    width: 50%; margin: 0 25% 0 25%;
+}
+/*responsive*/
+@media (max-width:1605px) {
+    .Offer{
+        background-size: cover;
+        background-position: top;
+    }
+    
+}
+@media (max-width: 1050px){
+    .Offer_Text h1{
+        font-size: 50px;
+    }
+    .Offer_GetStartedButton_External{
+        margin-bottom: 170px;
+    }
+    .Offer_BurgerMenu{
+        margin-right: 30px;
+    }
+}
+@media (max-width:717px) {
+    .Offer_GetStartedButton_External{
+        height: 90px;
+    }
+    .Footer_Nav a:nth-child(6){
+        margin-right: 0px;
+    }
+    
+    .Offer_Cards_World_Icon{
+        padding-right: 15px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+    }
+    .Offer_Cards_World{
+        margin-right: 5px;
+    }
+    .Offer_Cards_World_Text{
+        padding-right: 25px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding-left: 25px;
+    }
+    .Offer_Cards_Hearts_Icon{
+        padding-right: 15px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+    }
+    .Offer_Cards_Hearts{
+        margin-right: 5px;
+    }
+    .Offer_Cards_Hearts_Text{
+        padding-left: 25px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding-right: 25px;
+    }
+    .Offer_Cards_Site_Icon{
+        padding-right: 35px;
+        padding-left: 40px;
+        padding-bottom: 50px;
+        padding-top: 48px;
+    }
+    .Offer_Cards_Site_Text{
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 45px;
+        padding-right: 10px;
+    }
+    
+}
+@media (max-width:660px) {
+    .Offer_Text h1{
+        font-size: 35px;
+    }
+    .Registration_Welcome_Slogan p{
+        font-size: 20px;
+    }
+    .Registration_Welcome_Author p{
+        font-size: 20px;
+    }
+    .Registration_Welcome{
+        margin-bottom: 100px;
+    }
+}
+@media (max-width:630px) {
+    .Registration_Welcome_Author{
+        margin-left: 0;
+    }
+    .Footer_License{
+        font-size: 8px;
+    }
+
+}
+@media (max-width:619px) {
+    .Footer_Nav a:nth-child(6){
+        margin-right: 45px;
+    }
+}
+@media (max-width:570px) {
+    
+    .Registration_Welcome{
+        margin-top: 400px;
+    }
+    
+}
+@media (max-width:562px) {
+    .Offer_Cards_Hearts{
+        margin-right: 0px;
+    }
+    .Footer_Seller{
+        flex-wrap: wrap;
+    }
+    .Footer_Seller_Button{
+        margin-top: 30px;
+    }
+    .Registration_Welcome_Slogan p{
+        text-align: center;
+    }
+    .Offer_Cards_Site{
+        margin-top: 5px;
+    }
+}
+@media (max-width:500px) {
+    .Offer_Logo img{
+        width: 300px;
+    }
+    .Offer_Text h1{
+        font-size: 25px;
+    }
+    .Offer_BurgerMenu{
+        margin-right: 20px;
+    }
+}
+@media (max-width:442px) {
+    .Footer_Seller_Text{
+        margin-right: 10px;
+        font-size: 13px;
+    }
+    .Footer_Seller_Input input{
+        width: 200px;
+    }
+    .Registration_Welcome_Slogan p{
+        font-size: 17px;
+    }
+    .JoinNow_ExternalCircle{
+        width: 320px;
+        height: 320px;
+    }
+    .Registration_Form_Square{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+@media (max-width:398px) {
+    .Footer_Nav a{
+        font-size: 13px;
+    }
+    .Footer_Nav a:nth-child(4){
+        margin-right: 0px;
+    }
+    .Footer_Nav a:nth-child(6){
+        margin-right: 45px;
+    }
+    .Footer_License{
+        text-align: center;
+    }
+    
+}
+@media (max-width:370px) {
+    .Registration_Form_Square{
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding-left: 10px;
+        border: 3px solid skyblue;
+        border-image: linear-gradient(270deg, #f9b416, #e22028 );
+        border-image-slice: 1;
+    }
+}
+@media (max-width:368px) {
+    .Offer_Cards_Hearts_Icon{
+        padding-right: 10px;
+    }
+    .Offer_Cards_Site_Icon{
+        padding-left: 30px;
+        padding-right: 41px;
+    }
+    .Offer_Cards_Site_Text{
+        padding-left: 40px;
+    }
+    .Registration_Welcome{
+        margin-top: 600px;
+    }
+    .Offer_Cards_World_Icon{
+        padding-left: 45px;
+        padding-right: 40px;
+        margin-left: 5px;
+    }
+    .Offer_Cards_Hearts{
+        margin-left: 5px;
+    }
+    .Offer_Cards_Site{
+        margin-left: 5px;
+    }
+    .Offer_Cards_World{
+        margin-bottom: 5px;
+    }
+    .Offer_Cards_World_Icon{
+        margin-left: 10px;
+    }
+    .Offer_Cards_World_Text{
+        padding-right: 26px;
+        margin-left: 10px;
+        padding-left: 31px;
+    }
+    .Footer_Seller{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Footer_Seller_Text{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:340px) {
+    .Footer_Nav a:nth-child(6){
+        margin-right: 20px;
+    }
+    .Registration_Welcome_Slogan{
+
+    }
+}
